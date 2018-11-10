@@ -1,0 +1,145 @@
+	body {
+		padding: 0;
+		margin: 0;
+		background-image: url(../img/main.png);
+		background-repeat: no-repeat;
+		/*background-position: top center;*/
+		/*background-size: 100%;*/
+		
+	}
+
+	/*-----------------------меню основное*/
+
+	.navigation {
+		margin-top: 175px;
+		padding-top: 30px;
+
+
+	}
+
+	.nav {
+		position: absolute;
+		width: 420px;
+		height: auto;
+		margin-left: 89px;
+		background-image: url(../img/pattern1.png);
+		background-repeat: no-repeat;
+		background-size: auto;
+	}
+
+	.nav__conteiner {
+		/*position: absolute;*/
+		height: 60px;
+		padding: 9px 0 0 20px;
+		margin: 0;
+	}
+
+	.nav__conteiner_logo {
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	.nav__conteiner_text {
+		float: left;
+		padding-left: 8px;
+		padding-top: 10px;
+		font: 21px arial;
+		color: #33312f;
+		line-height: 16px;
+
+	}
+
+	.nav__conteiner_text-color {
+		color: #d21e00
+	}
+
+	.nav__conteiner_text-font {
+		font: 12px arial;
+		color: #66605c;
+		letter-spacing: 0.6px;
+	}
+
+
+	.nav__list {
+		clear: both;
+		padding: 9px 0 0 20px;	
+		min-height: 34px;
+	}
+
+	.nav__list_delimetr {
+		width: 415px;
+	    height: 1px;
+	    border-bottom: 1px solid #dbdbda;
+	    margin: -11px 0 0 -15px;
+	    padding: 0;
+	}
+	.nav__list_delimetr-end {
+		width: 415px;
+	    height: 1px;
+	    border-bottom: 1px solid #dbdbda;
+	    margin: 15px 0 0 -15px;
+	    padding: 0;
+	}
+
+	.nav__list_logo {
+		float: left;
+		margin: 5px 10px 0 0;
+	}
+
+	.nav__list_text {
+		font: 19px calibri;
+		line-height: 26px;
+	}
+	.nav__list_text a {
+		text-decoration: none;
+	}
+
+	.uhod-color {
+		color: #607480;
+	}
+	.ohlojdenie-color {
+		color: #598ab4;
+		padding-left: 3px;
+	}
+	.pischa-color {
+		color: #7e5691
+	}
+	.posuda-color {
+		color: #507b65
+	}
+	.tehnika-color {
+		color: #b74d4e
+	}
+
+	.menu-ohlojdenie {
+		position: relative;
+		margin: 0;
+		padding: 8px 0 0 14px;.	
+	}
+
+	.menu-ohlojdenie li {
+		height: 42px;
+
+	}
+
+
+	.menu-ohlojdenie a {
+		position: absolute;	
+		padding: 7px 0 0 10px;
+		color: #7b94a9;
+		font: regular 13px arial ;
+	}
+
+	.menu-ohlojdenie a:hover {
+		color: #598ab4;
+		text-decoration: none;	
+	}	 
+
+	.ul-nav__list_delimetr {
+		width: 360px;
+	    height: 1px;
+	    border-bottom: 1px dashed #dbdbda;
+	    margin-bottom: 4px;
+	    padding: 0
+	}
